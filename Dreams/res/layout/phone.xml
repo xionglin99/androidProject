@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="2dp"
+	android:text="@string/lblPhone"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="12dp"
+	android:layout_y="49dp" />
+<EditText
+	android:id="@+id/txtPhone"
+	android:layout_width="156dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:phoneNumber="true"
+	android:layout_x="88dp"
+	android:layout_y="39dp" />
+<Button
+	android:id="@+id/btnPhoneQuery"
+	android:layout_width="157dp"
+	android:layout_height="wrap_content"
+	android:text="@string/strBtnQuery"
+	android:textSize="18sp"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="85dp"
+	android:layout_y="88dp" />
+
+<TextView
+    android:id="@+id/lblPhoneAddr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="42dp"
+    android:layout_y="149dp"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+
+</AbsoluteLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strCardNo"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="54dp"
+	android:layout_y="53dp" />
+<TextView
+	android:id="@+id/lblCardNo"
+	android:layout_width="80dp"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textStyle="bold"
+	android:layout_x="133dp"
+	android:layout_y="53dp" />
+<TextView
+	android:layout_width="71dp"
+	android:layout_height="26dp"
+	android:text="@string/strSno"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="52dp"
+	android:layout_y="99dp" />
+<TextView
+	android:id="@+id/lblSno"
+	android:layout_width="81dp"
+	android:layout_height="22dp"
+	android:text="TextView"
+	android:textStyle="bold"
+	android:layout_x="134dp"
+	android:layout_y="97dp" />
+<TextView
+	android:layout_width="68dp"
+	android:layout_height="27dp"
+	android:text="@string/strBankNo"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="53dp"
+	android:layout_y="153dp" />
+<TextView
+	android:id="@+id/lblBankNo"
+	android:layout_width="159dp"
+	android:layout_height="24dp"
+	android:text="TextView"
+	android:textStyle="bold"
+	android:layout_x="134dp"
+	android:layout_y="153dp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strCardBalance"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="52dp"
+	android:layout_y="201dp" />
+<TextView
+	android:id="@+id/lblCardBalance"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textStyle="bold"
+	android:layout_x="134dp"
+	android:layout_y="201dp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strBankBalance"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="53dp"
+	android:layout_y="256dp" />
+<TextView
+	android:id="@+id/lblBankBalance"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textStyle="bold"
+	android:layout_x="133dp"
+	android:layout_y="256dp" />
+<Button
+	android:id="@+id/btnCardInfoBack"
+	android:layout_width="69dp"
+	android:layout_height="37dp"
+	android:text="@string/Back"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="53dp"
+	android:layout_y="321dp" />
+<Button
+	android:id="@+id/btnCardInfoExit"
+	android:layout_width="67dp"
+	android:layout_height="37dp"
+	android:text="@string/Exit"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="142dp"
+	android:layout_y="320dp" />
+</AbsoluteLayout>

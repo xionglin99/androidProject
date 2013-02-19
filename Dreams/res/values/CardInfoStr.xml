@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="strUserName">姓名</string>
+<string name="strCardBalance">校园卡余额</string>
+<string name="strBankNo">银行卡号</string>
+<string name="strSno">学工号</string>
+<string name="strCardNo">校园卡号</string>
+<string name="strBankBalance">银行卡余额</string>
+<string name="strCard">校园卡</string>
+<string name="strEacc">电子账户</string>
+<string name="strAmount">金额</string>
+<string name="Back">返回</string>
+<string name="Exit">退出</string>
+<string name="strTransferWay">从校园卡绑定的银行卡向</string>
+</resources>

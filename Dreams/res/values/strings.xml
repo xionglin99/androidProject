@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">欢迎使用手机版服务平台!</string>
+    <string name="app_name">电子服务平台</string>
+    <string name="strUserAccount">用户名</string>
+    <string name="strPassword">密码</string>
+    <string name="strNotice">平台通知</string>
+    <string name="strPersonalNotice">个人通知</string>
+    <string name="strCardInfo">校园卡基本信息</string>
+    <string name="strTransfer">转账充值</string>
+    <string name="strTrjnQuery">流水查询</string>
+    <string name="strPayPowerFee">缴电费</string>
+    <string name="strPayNetFee">缴网费</string>
+    <string name="strSetCardLoss">校园卡挂失</string>
+    <string name="strPhoneAddr">手机归属地查询</string>
+    <string name="strWebKit">网页浏览</string>
+    <string name="lblPhone">手机号</string>
+    <string name="strBtnOK">确定</string>
+    <string name="strBtnCancel">取消</string>
+    <string name="strBtnQuery">查询</string>
+    <string name="ConfirmPwd">确认密码</string>
+    <string name="strQueryPwd">查询密码</string>
+    <string name="strWeatherReport">天气预报</string>
+    <string name="strToolUse">控件使用</string>
+    <string name="strTestDB">数据存储</string>
+    <string name="strTestDemo">测试Demo</string>
+    <string name="strWebView">手机浏览器</string>
+
+</resources>

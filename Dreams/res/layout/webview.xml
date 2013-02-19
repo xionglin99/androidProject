@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget35"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/btnLook"
+	android:layout_width="61dp"
+	android:layout_height="39dp"
+	android:text="@string/strBtnOK"
+	android:textStyle="bold"
+	android:layout_alignBaseline="@+id/txtUrl"
+	android:layout_toRightOf="@+id/txtUrl" />
+<EditText
+	android:id="@+id/txtUrl"
+	android:layout_width="250dp"
+	android:layout_height="43dp"
+	android:textSize="18sp"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true" />
+<WebView 
+    android:id="@+id/myWebView"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="strLoginTip">用户名密码不能为空!</string>
+    <string name="strLoginError">用户名密码不正确，请重试！</string>
+    
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:layout_width="184dp"
+	android:layout_height="24dp"
+	android:text="@string/strTransferWay"
+	android:textStyle="bold"
+	android:layout_x="44dp"
+	android:layout_y="32dp" />
+<RadioButton
+	android:id="@+id/rbtToCard"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strCard"
+	android:textStyle="bold"
+	android:checked="true"
+	android:layout_x="30dp"
+	android:layout_y="77dp" />
+<RadioButton
+	android:id="@+id/rbtToEacc"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strEacc"
+	android:textStyle="bold"
+	android:layout_x="152dp"
+	android:layout_y="77dp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strQueryPwd"
+	android:textStyle="bold"
+	android:layout_x="35dp"
+	android:layout_y="153dp" />
+<EditText
+	android:id="@+id/txtQueryPwd"
+	android:layout_width="144dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:password="true"
+	android:layout_x="129dp"
+	android:layout_y="140dp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="25dp"
+	android:text="@string/strAmount"
+	android:textStyle="bold"
+	android:layout_x="41dp"
+	android:layout_y="218dp" />
+<EditText
+	android:id="@+id/txtTransferAmount"
+	android:layout_width="143dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:textStyle="bold"
+	android:numeric="decimal"
+	android:layout_x="131dp"
+	android:layout_y="208dp" />
+<Button
+	android:id="@+id/btnTransferOk"
+	android:layout_width="89dp"
+	android:layout_height="wrap_content"
+	android:text="@string/strBtnOK"
+	android:textStyle="bold"
+	android:layout_x="50dp"
+	android:layout_y="283dp" />
+<Button
+	android:id="@+id/btnTransferCancel"
+	android:layout_width="89dp"
+	android:layout_height="wrap_content"
+	android:text="@string/Back"
+	android:textStyle="bold"
+	android:layout_x="157dp"
+	android:layout_y="285dp" />
+</AbsoluteLayout>

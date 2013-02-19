@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget43"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strQueryPwd"
+	android:textStyle="bold"
+	android:layout_x="58dp"
+	android:layout_y="153dp" />
+<TextView
+	android:id="@+id/lblCardNo"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:layout_x="142dp"
+	android:layout_y="68dp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strSno"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="58dp"
+	android:layout_y="108dp" />
+<TextView
+	android:id="@+id/cardloss_lblSno"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:layout_x="142dp"
+	android:layout_y="107dp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/strCardNo"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="57dp"
+	android:layout_y="69dp" />
+<EditText
+	android:id="@+id/txtPwd_cardloss"
+	android:layout_width="130dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:textStyle="bold"
+	android:password="true"
+	android:layout_x="141dp"
+	android:layout_y="142dp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="20dp"
+	android:text="@string/ConfirmPwd"
+	android:textStyle="bold"
+	android:layout_x="59dp"
+	android:layout_y="216dp" />
+<EditText
+	android:id="@+id/txtConfirmPwd_cardloss"
+	android:layout_width="131dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:textStyle="bold"
+	android:password="true"
+	android:layout_x="141dp"
+	android:layout_y="204dp" />
+<Button
+	android:id="@+id/btnSetCardLossOk"
+	android:layout_width="72dp"
+	android:layout_height="wrap_content"
+	android:text="@string/strBtnOK"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="72dp"
+	android:layout_y="275dp" />
+<Button
+	android:id="@+id/btnSetCardLoss_cancel"
+	android:layout_width="72dp"
+	android:layout_height="wrap_content"
+	android:text="@string/Back"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_x="168dp"
+	android:layout_y="273dp" />
+</AbsoluteLayout>
