@@ -2,7 +2,6 @@ package synjones.dreams.test;
 
 import synjones.common.HttpUtil;
 import synjones.dreams.service.CardManageService;
-import synjones.dreams.service.HttpWebService;
 import android.test.AndroidTestCase;
 
 public class HttpUtilTest extends AndroidTestCase {

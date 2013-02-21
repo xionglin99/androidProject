@@ -1,7 +1,5 @@
 package synjones.dreams.android;
 
-import java.util.Properties;
-
 import synjones.dreams.models.CardInfo;
 import android.app.Activity;
 import android.content.Context;

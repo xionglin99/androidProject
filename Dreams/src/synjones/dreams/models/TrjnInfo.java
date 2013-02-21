@@ -1,6 +1,5 @@
 package synjones.dreams.models;
 
-import synjones.dreams.android.R.string;
 
 /***
  * 校园卡流水信息

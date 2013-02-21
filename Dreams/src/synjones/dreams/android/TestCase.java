@@ -1,8 +1,6 @@
 package synjones.dreams.android;
 
 import java.util.List;
-import java.util.Properties;
-
 import synjones.dreams.models.CardInfo;
 import synjones.dreams.service.CardManageService;
 import synjones.dreams.service.WeatherReportService;

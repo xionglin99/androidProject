@@ -2,7 +2,6 @@ package synjones.dreams.android;
 
 import synjones.dreams.android.R;
 import synjones.dreams.service.CardManageService;
-import android.content.ContentProvider;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
